@@ -7,12 +7,12 @@ import { Component, OnInit, Input, Output, EventEmitter, ViewChild, ElementRef }
 })
 export class RisingComponent implements OnInit {
 
-  @ViewChild('txtProgress') txtProgress: ElementRef;
+  @ViewChild('txtProgress', { static: true }) txtProgress: ElementRef;
 
   @Input() progress: number = 50;
   @Input() leyend: string = 'Leyenda';
 
-  @Output() changedValue: EventEmitter<number> = new EventEmitter;
+  @Output() changedValue: EventEmitter<number> = new EventEmitter();
 
   constructor() { }
 

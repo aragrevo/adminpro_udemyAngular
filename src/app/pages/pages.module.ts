@@ -13,6 +13,8 @@ import { Graficas1Component } from './graficas1/graficas1.component';
 import { RisingComponent } from '../components/rising/rising.component';
 import { GraficDonaComponent } from '../components/grafic-dona/grafic-dona.component';
 
+import { ChartsModule } from 'ng2-charts';
+
 
 
 @NgModule({
@@ -32,7 +34,8 @@ import { GraficDonaComponent } from '../components/grafic-dona/grafic-dona.compo
   imports: [
     SharedModule,
     FormsModule,
-    PAGES_ROUTES
+    PAGES_ROUTES,
+    ChartsModule
   ]
 })
 export class PagesModule { }
