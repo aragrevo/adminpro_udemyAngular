@@ -14,6 +14,7 @@ import { RisingComponent } from '../components/rising/rising.component';
 import { GraficDonaComponent } from '../components/grafic-dona/grafic-dona.component';
 
 import { ChartsModule } from 'ng2-charts';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
 
 
@@ -24,7 +25,8 @@ import { ChartsModule } from 'ng2-charts';
     ProgressComponent,
     Graficas1Component,
     RisingComponent,
-    GraficDonaComponent
+    GraficDonaComponent,
+    AccountSettingsComponent
   ],
   exports: [
     DashboardComponent,
