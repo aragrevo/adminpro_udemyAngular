@@ -15,6 +15,8 @@ import { GraficDonaComponent } from '../components/grafic-dona/grafic-dona.compo
 
 import { ChartsModule } from 'ng2-charts';
 import { AccountSettingsComponent } from './account-settings/account-settings.component';
+import { PromisesComponent } from './promises/promises.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 
 
@@ -26,7 +28,9 @@ import { AccountSettingsComponent } from './account-settings/account-settings.co
     Graficas1Component,
     RisingComponent,
     GraficDonaComponent,
-    AccountSettingsComponent
+    AccountSettingsComponent,
+    PromisesComponent,
+    RxjsComponent
   ],
   exports: [
     DashboardComponent,
